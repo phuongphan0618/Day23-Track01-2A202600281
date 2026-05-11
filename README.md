@@ -30,7 +30,7 @@ v4 5-BLOCK FLOW — 240 min, 09:00-13:00 absolute
 │ Block 5 — Revise + submit (12:30-13:00, 30')                                 │
 │   Phase 1 (20') Col 8 Fix + ≥2 mandatory changes                             │
 │   Phase 2 (5')  Part D Decision Memo                                         │
-│   Phase 3 (5')  Submit Discord #day23-lab-submissions                        │
+│   Phase 3 (5')  Push repo cá nhân + share link Discord #day23-submissions    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -59,7 +59,7 @@ WARNING: "Diffusion is not Normalization" = teaching synthesis dựa trên Roger
 | **10:00-11:00** | **Block 2** — Case study + present (60') | 30' group research (8 case packets) + 25' present round 3-5 nhóm + 5' instructor synthesis | (slide #23 intro) | Case method + group present | Case Evidence Matrix (cá nhân) |
 | **11:00-12:00** | **Block 3** — Product ROI Dashboard v1 build (60') | **Phase 0** (11:00-11:10, 10') pick product + extract 2-4 workflows · **Phase 1** (11:10-11:30, 20') Part A · **Phase 2** (11:30-11:55, 25') Part B v1 cols 1-6 · **Phase 3** (11:55-12:00, 5') Part C mock | (Lab brief) | Group lab build | Parts A + B v1 + C draft |
 | **12:00-12:30** | **Block 4** — Red-team round (30') | 10' present v1 + 20' cross-team attack 4 roles fill col 7 Red-team risk | | Adversarial peer-review | Red-team risk col filled |
-| **12:30-13:00** | **Block 5** — Revise + submit (30') | **Phase 1** (12:30-12:50, 20') Col 8 Fix + ≥2 changes · **Phase 2** (12:50-12:55, 5') Part D · **Phase 3** (12:55-13:00, 5') nộp Discord | | Group revise + submit | **Product ROI Dashboard Parts A-D** |
+| **12:30-13:00** | **Block 5** — Revise + submit (30') | **Phase 1** (12:30-12:50, 20') Col 8 Fix + ≥2 changes · **Phase 2** (12:50-12:55, 5') Part D · **Phase 3** (12:55-13:00, 5') push repo cá nhân + share link Discord | | Group revise + submit | **Product ROI Dashboard Parts A-D** |
 | **24h sau** | Reflect cá nhân deadline | | | Cá nhân | **Reflect cá nhân 150-200 từ** |
 
 **Tổng:** 240 phút (4h budget locked) — 60+60+60+30+30 = 240'.
@@ -74,7 +74,7 @@ Mỗi nhóm được assign 1 case (Nansen / Stripe / Morgan Stanley / DWP-GDS /
 
 > Case / Metric shown / Metric layer / What this proves / What this does NOT prove / Missing metric / Biggest risk / Lesson for our dashboard
 
-Template: [`02-templates/00-case-evidence-matrix.md`](02-templates/00-case-evidence-matrix.md). **Nộp via Discord `#day23-case-share`**.
+Template: [`02-templates/00-case-evidence-matrix.md`](02-templates/00-case-evidence-matrix.md). **Nộp via repo cá nhân `Day23-Track01-<MãHọcViên>` — file `01-case-evidence-matrix.md`** (xem §Hướng dẫn nộp bài).
 
 ### 2. Product ROI Dashboard (Block 3-5, nhóm — chính)
 
@@ -84,7 +84,7 @@ Group artifact Parts A-D. Áp dụng lên **1 product** CỤ THỂ với **2-4 c
 - **Part C** Dashboard mock 4-6 tiles (top tile product-level, remaining per-workflow)
 - **Part D** Decision Memo 4 q's (incl. "metric replaced after red-team")
 
-**Xem template:** [`01-worksheet.md`](01-worksheet.md) + [`Day23-Lab-Assignment.md`](Day23-Lab-Assignment.md). **Nộp via Discord `#day23-lab-submissions` (cuối Block 5, 13:00)**.
+**Xem template:** [`01-worksheet.md`](01-worksheet.md) + [`Day23-Lab-Assignment.md`](Day23-Lab-Assignment.md). **Nộp via repo cá nhân — file `03-product-roi-dashboard.md`** (mỗi thành viên copy file group vào repo cá nhân, push trước 13:00). Share link repo lên Discord `#day23-submissions`.
 
 ### 3. Red-Team round (Block 4, nhóm attack)
 
@@ -100,9 +100,9 @@ Cross-team attack: mỗi nhóm được assign 1 attack role (CFO / User / Risk 
 
 | # | Deliverable | Loại | Deadline | Nộp ở đâu |
 |---|-------------|------|----------|------------|
-| 1 | **Ghi chú thách thức áp dụng AI**: 1-2 thách thức quan sát được | Cá nhân | 09:25 | Discord `#day23-case-share` |
-| 2 | **Bảng so sánh case thành công/thất bại** | Nhóm | 10:40 | Discord `#day23-case-share` |
-| 3 | **Dashboard hành động v2** | Nhóm | 13:00 | Discord `#day23-lab-submissions` |
+| 1 | **Ghi chú thách thức áp dụng AI** + Case Evidence Matrix | Cá nhân | 09:25 | Repo cá nhân: `01-case-evidence-matrix.md` |
+| 2 | **Bảng so sánh case thành công/thất bại** | Nhóm (mỗi thành viên copy) | 10:40 | Repo cá nhân: `02-case-comparison.md` |
+| 3 | **Product ROI Dashboard v2** (Parts A-D) | Nhóm (mỗi thành viên copy) | 13:00 | Repo cá nhân: `03-product-roi-dashboard.md` + share link repo Discord `#day23-submissions` |
 | 4 | **Reflect cá nhân** 150-200 từ: *"1 chỉ số hoặc 1 giả định tôi sẽ sửa"* | Cá nhân | 24h sau lớp | Reply vào thread bài nhóm |
 
 ---
@@ -171,39 +171,65 @@ Day 23 = **100 điểm** (75đ nhóm + 25đ cá nhân).
 
 ---
 
-## Hướng dẫn nộp bài (v4 in-class submission)
+## Hướng dẫn nộp bài
 
-**Submission flow (Discord là primary, GitHub repo là optional backup):**
-- **Block 2 end (11:00):** Mỗi cá nhân nộp Case Evidence Matrix via Discord `#day23-case-share`
-- **Block 5 end (13:00):** Group nộp Product ROI Dashboard Parts A-D via Discord `#day23-lab-submissions` (markdown link + 1 screenshot of dashboard mock)
-- **24h sau lớp:** Cá nhân nộp Reflect cá nhân qua thread bài nhóm trong Discord `#day23-lab-submissions`
+**Mỗi học viên tạo MỘT GitHub repo cá nhân duy nhất để nộp tất cả deliverables Day 23.**
 
-### Repo nhóm (optional GitHub backup)
+| Trường | Giá trị |
+|---|---|
+| Tên repo | `Day23-Track01-<MãHọcViên>` (ví dụ: `Day23-Track01-V202301001`) |
+| Visibility | **public** (để instructor + TA chấm) |
+| Branch | `main` |
+| Stay public | tối thiểu 2 tuần sau lớp |
+
+### Cấu trúc repo
 
 ```
-NhomXX-Lop-Day23/
+Day23-Track01-<MãHọcViên>/
 │
-├── product-roi-dashboard.md            ← Product ROI Dashboard Parts A-D (product-level + per-workflow)
-├── case-evidence-matrix-NhomXX.md      ← Block 2 Case Evidence Matrix (group consolidated)
-└── dashboard-mock.png                  ← Screenshot of Part C dashboard mock
+├── README.md                       ← Họ tên · Mã học viên · Tên nhóm + thành viên
+├── 01-case-evidence-matrix.md      ← Block 2 — Case Evidence Matrix (cá nhân fill)
+├── 02-case-comparison.md           ← Block 2 — Bảng so sánh case thành công/thất bại (group; mỗi thành viên copy)
+├── 03-product-roi-dashboard.md     ← Block 3-5 — Product ROI Dashboard Parts A-D (group; mỗi thành viên copy)
+├── 04-reflection.md                ← Reflect cá nhân 150-200 từ "1 metric tôi sẽ replace + tại sao"
+└── assets/                         ← (optional) screenshot dashboard mock + hình ảnh phụ
 ```
 
-### Repo cá nhân (optional GitHub backup)
+### Workflow nộp bài
 
+| # | Bài | Khi nào | Action |
+|---|---|---|---|
+| 0 | Setup repo + README | Trước 09:00 | Tạo repo `Day23-Track01-<MãHọcViên>` (public), commit README có họ tên + mã học viên + tên nhóm |
+| 1 | Case Evidence Matrix (cá nhân) | 09:25-11:00 | Commit `01-case-evidence-matrix.md` + push |
+| 2 | Bảng so sánh case (group) | 10:40 | Group share file → mỗi thành viên copy vào repo cá nhân + push |
+| 3 | Product ROI Dashboard v2 (group) | 13:00 | Group share file → mỗi thành viên copy vào repo + push. Share link repo lên Discord `#day23-submissions` |
+| 4 | Reflect cá nhân | 24h sau lớp | Commit `04-reflection.md` + push |
+
+### README.md repo cá nhân — template
+
+```markdown
+# Day 23 Track 01 — <Họ tên>
+
+**Mã học viên:** <MãHọcViên>
+**Nhóm:** <Tên nhóm>
+**Thành viên nhóm:** <liệt kê tên + mã 4-6 người>
+**Course repo:** https://github.com/VinUni-AI20k/Day23-Track01-AI-Adoption
+
+## Files
+- `01-case-evidence-matrix.md` — Cá nhân fill Block 2
+- `02-case-comparison.md` — Group bảng so sánh case
+- `03-product-roi-dashboard.md` — Group Product ROI Dashboard Parts A-D
+- `04-reflection.md` — Cá nhân reflect 24h sau lớp
 ```
-MaHocVien-HoTen-Day23/
-│
-├── case-evidence-matrix.md             ← Block 2 individual fill
-├── reflection.md                       ← 150-200 từ: "1 metric tôi sẽ replace + tại sao"
-└── extras/                             ← Optional bonus
-```
 
-### Lưu ý
+### Lưu ý quan trọng
 
-- Discord submission là primary — GitHub repo là optional backup
-- Tên người phụ trách ghi tại đầu mỗi Part trong dashboard
-- **Group attribution rule:** thành viên không giải thích được phần mình làm trong oral check (Lab Coach hỏi nhanh) → 0đ phần đó (cùng convention với Day 5 vibe-coding rule)
-- **Red-team participation:** mỗi thành viên phải attack ≥1 nhóm khác trong Block 4 — empty Red-team contribution = 0 điểm phần đó
+- **Group artifacts (#2 + #3):** mỗi thành viên trong nhóm copy file group vào repo cá nhân — đảm bảo mỗi học viên có bundle đầy đủ để chấm. Ghi tên người phụ trách tại đầu mỗi Part A/B/C/D trong dashboard.
+- **File format:** Markdown (`.md`). Có thể thêm `assets/` cho hình ảnh (screenshot dashboard mock, photo whiteboard, etc.).
+- **Discord** `#day23-submissions`: CHỈ dùng để share link repo cá nhân (cuối Block 5). KHÔNG nộp file qua Discord.
+- **Oral check rule:** thành viên không giải thích được phần mình làm trong oral check (Lab Coach hỏi nhanh) → 0đ phần đó (cùng convention với Day 5 vibe-coding rule).
+- **Red-team participation:** mỗi thành viên phải attack ≥1 nhóm khác trong Block 4 — empty Red-team contribution = 0 điểm phần đó.
+- **Late submission:** repo phải public trước 13:00. Late = bị giảm điểm theo rubric §5 late policy.
 
 ---
 

@@ -20,14 +20,23 @@ Day 23 không yêu cầu bạn nghe lý thuyết rồi chép lại khung lý thu
 
 ## Cuối Ngày Cần Nộp Gì
 
-| # | Bài nộp | Ai nộp | Khi nào | Nộp ở đâu |
-|---|---|---|---|---|
-| 1 | **Ghi chú thách thức áp dụng AI** (AI Adoption Challenge Note): 1-2 thách thức bạn quan sát được | Cá nhân | 09:25 | Discord `#day23-case-share` |
-| 2 | **Bảng so sánh case thành công/thất bại**: so sánh 1 case thành công + 1 case thất bại/cảnh báo | Nhóm | 10:40 | Discord `#day23-case-share` |
-| 3 | **Dashboard hành động v2** | Nhóm | 13:00 | Discord `#day23-lab-submissions` |
-| 4 | **Reflect cá nhân**: "1 chỉ số hoặc 1 giả định tôi sẽ sửa" | Cá nhân | Trong 24h sau lớp | Reply vào thread bài nhóm |
+**Mỗi học viên tạo MỘT GitHub repo cá nhân duy nhất:** `Day23-Track01-<MãHọcViên>` (public). Để TẤT CẢ deliverables vào repo này.
 
-File nhóm nên viết bằng Markdown. Có thể dùng `01-worksheet.md` làm khung chính, rồi bổ sung phần **thách thức / nguyên nhân gốc / lộ trình** nếu cần.
+| # | Bài nộp | Ai nộp | Khi nào | File trong repo cá nhân |
+|---|---|---|---|---|
+| 1 | **Ghi chú thách thức áp dụng AI** + Case Evidence Matrix | Cá nhân | 09:25 | `01-case-evidence-matrix.md` |
+| 2 | **Bảng so sánh case thành công/thất bại** | Nhóm (mỗi thành viên copy vào repo) | 10:40 | `02-case-comparison.md` |
+| 3 | **Dashboard hành động v2** (Product ROI Dashboard Parts A-D) | Nhóm (mỗi thành viên copy vào repo) | 13:00 | `03-product-roi-dashboard.md` |
+| 4 | **Reflect cá nhân:** "1 chỉ số hoặc 1 giả định tôi sẽ sửa" | Cá nhân | Trong 24h sau lớp | `04-reflection.md` |
+
+**Workflow:**
+
+1. **Trước 09:00** — Tạo repo `Day23-Track01-<MãHọcViên>` (public), commit `README.md` ghi rõ họ tên + mã học viên + tên nhóm + thành viên.
+2. **Sau mỗi bài** — commit file mới + `git push` vào branch `main`.
+3. **Cuối Block 5 (13:00)** — share link repo cá nhân lên Discord `#day23-submissions` (1 link / 1 học viên). Repo phải public.
+4. **24h sau lớp** — add `04-reflection.md` + push.
+
+File nhóm nên viết bằng Markdown. Có thể dùng `01-worksheet.md` làm khung chính. Group artifacts (Bài 2 + Bài 3): mỗi thành viên copy file group vào repo cá nhân — đảm bảo mỗi học viên có bundle đầy đủ để chấm. Repo phải stay public ít nhất 2 tuần sau lớp.
 
 ---
 
@@ -45,7 +54,7 @@ File nhóm nên viết bằng Markdown. Có thể dùng `01-worksheet.md` làm k
 | **11:40-12:10** | **Bài 4 — Phản biện vai** (red-team). Nhóm khác chất vấn bằng 4 vai: CFO / người dùng / rủi ro / chủ quy trình. Ghi rủi ro vào dashboard. | Danh sách rủi ro |
 | **12:10-12:40** | **Bài 5 — Sửa bản v2.** Sửa ít nhất 2 điểm sau phản biện. Hoàn thiện memo quyết định (decision memo). | Dashboard v2 |
 | **12:40-12:55** | 2-3 nhóm trình bày bản v2. Giảng viên tổng hợp pattern chung. | Tổng hợp lớp |
-| **12:55-13:00** | Nộp bài nhóm. | Nộp bài |
+| **12:55-13:00** | Mỗi thành viên copy file dashboard group vào repo cá nhân `Day23-Track01-<MãHọcViên>` → commit + push → share link repo lên Discord `#day23-submissions`. | Repo cá nhân public với đầy đủ files |
 
 ---
 
@@ -273,7 +282,7 @@ Mỗi điều kiện 10 điểm.
 
 ### Bài nhóm cuối ngày
 
-Nộp lên Discord `#day23-lab-submissions` trước **13:00**.
+Nộp vào repo cá nhân `Day23-Track01-<MãHọcViên>` (file `03-product-roi-dashboard.md`) trước **13:00**, sau đó share link repo lên Discord `#day23-submissions`. Xem §Cuối Ngày Cần Nộp Gì ở đầu file để biết workflow đầy đủ.
 
 Nội dung tối thiểu:
 
