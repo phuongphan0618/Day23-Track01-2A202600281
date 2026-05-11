@@ -1,6 +1,6 @@
-## A. Case Evidence Matrix — cá nhân
+# A. Case Evidence Matrix — cá nhân
 
-### Case 1:
+## Case 1:
 | Trường | Trả lời |
 |---|---|
 | **Case** | Case 1 — Hallucination do model đã từng “biết” paper trước đó |
@@ -14,7 +14,7 @@
 | **Rủi ro lớn nhất** | Model thấy paper quen → thay vì đọc tài liệu thật, nó “đoán” lại nội dung từ pretraining hoặc latent memory. Dẫn đến summary nghe hợp lý nhưng lệch chi tiết, đặc biệt ở method/result mới. User khó phát hiện vì output rất tự tin. |
 | **Bài học cho dashboard nhóm** | Không đo mỗi satisfaction. Cần đo grounded quality: <br> • % claim traceable về source <br> • confidence theo parsing quality <br> • % summary bị report sai/hallucination |
 
-### Case 2
+## Case 2
 | Trường | Trả lời |
 |---|---|
 | **Case** | Case 2 — Workflow sử dụng khó khiến metric bị hiểu sai |

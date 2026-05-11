@@ -1,0 +1,5 @@
+# Reflection — Day 23
+
+Sau khi làm dashboard ROI cho MindMesh, metric tôi muốn sửa nhất là **% user chọn được ít nhất 1 paper trong session đầu**. Ban đầu metric này nghe hợp lý vì nó gắn với aha moment của sản phẩm: người dùng tìm được paper nhanh hơn thay vì mất nhiều giờ skim thủ công. Nhưng sau khi đọc case evidence và so sánh Morgan Stanley với JPMorgan Dashboard, tôi thấy metric này vẫn còn yếu. Nó có thể chỉ chứng minh rằng user có tương tác với sản phẩm, chưa chứng minh paper đó thật sự hữu ích hoặc summary đủ đáng tin.
+
+Vậy nên tôi sẽ sửa metric thành: **% user đạt first useful paper trong <=15 phút, chỉ tính khi paper còn trong shortlist sau 7 ngày hoặc được user đánh giá useful sau khi mở source/citation**. Metric mới tốt hơn vì nó đo outcome sau khi người dùng có thời gian kiểm chứng, không chỉ đo hành động ban đầu. Ngoài ra, tôi sẽ ghép metric này với **grounded claim rate** và **hallucination/report error rate** để tránh việc tối ưu tốc độ nhưng làm giảm chất lượng. Bài học lớn nhất là dashboard AI không nên chỉ hỏi "người dùng có dùng không", mà phải hỏi "AI có giúp họ ra quyết định đúng hơn không".
